@@ -1,0 +1,20 @@
+{
+    "name": "clonelin/alioss",
+    "description": "Alioss",
+    "authors": [
+        {
+            "name": "clone",
+            "email": "bjbs08@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "clonelin\\alioss\\": "src/"
+        },
+        "files": []
+    }
+}
